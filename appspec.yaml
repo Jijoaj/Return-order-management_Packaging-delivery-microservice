@@ -1,0 +1,10 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:sa-east-1:421308774925:task-definition/PackagingAndDeliveryService:2"
+        LoadBalancerInfo:
+          ContainerName: "packaging_and_delivery"
+          ContainerPort: "8080"
+        PlatformVersion: "LATEST"
