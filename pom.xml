@@ -11,7 +11,7 @@
 	<groupId>return-order-management</groupId>
 	<artifactId>packaging-and-delivery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>packaging-and-delivery</name>
 	<description>packaging-and-delivery microservice should get the component type and count to determine the packaging and delivery charge</description>
 	<properties>
